@@ -1,0 +1,44 @@
+.sidebar{
+    height: 100%;
+    background: #aaa;
+}
+
+.enkr{
+    text-align: center;
+}
+.enkripsi{
+    width: 35%;
+    font-size: 13px;
+    font-family: 'Balsamiq Sans', cursive;
+    padding: 5px 1px;
+    background: #ffa703;
+    border-radius: 6px;
+    margin-top: 2px;
+    outline: none;
+}
+
+.dekripsi{
+    width: 35%;
+    font-size: 13px;
+    font-family: 'Balsamiq Sans', cursive;
+    padding: 5px 1px;
+    background: #ffa703;
+    border-radius: 6px;
+    margin-top: 10px;   
+}
+
+.enkripsi:hover{
+    cursor: pointer;
+    background: #ed591a;
+}
+
+.dekripsi:hover{
+    cursor: pointer;
+    background: #ed591a;
+}
+
+.tabel{
+    position: fixed;
+    right: 1000px;
+    background: #042331;
+}
