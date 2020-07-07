@@ -1,0 +1,74 @@
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-column-gap: 4px;
+}
+
+
+.sidebar{
+    background: #042331;
+    height: 100%;
+    transition: all .5s ease;
+}
+
+.sidebar header{
+    font-size: 22px;
+    font-family: 'Balsamiq Sans', cursive;
+    color: white;
+    line-height: 70px;
+    text-align: center;
+    background: #063146;
+    user-select: none;
+}
+
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 70px;
+    font-size: 16px;
+    font-family: 'Balsamiq Sans', cursive;
+    color: white;
+    padding-left: 30px; 
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid black; 
+    text-decoration: none;
+}
+
+.sidebar ul li{
+    list-style-type: none;
+}
+
+ul li a:hover{
+    padding-left: 50px;
+    transition: .5s;
+}
+
+#tabel{
+    display:grid;
+    background: #042331;
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 16px;
+}
+
+#inputcipher{
+    width: 300px;
+    height: 15px;
+    padding: 2px 6px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+#inputsubmit{
+    cursor: pointer;
+    padding: 6px;
+    font-size: 12px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+#plaintext{
+    padding: 5px 10px;
+    width: 50%;
+}
