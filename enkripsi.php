@@ -1,12 +1,16 @@
 <?php
 session_start();
-include 'koneksi.php';
-require 'AES.php';
-
+// include 'koneksi.php';
+// require 'AES.php';
+$config = include_once("AES.php"); //cara berhubungan dengan file lain.
+var_dump($config);
 $AES = new AES();
 
-$sql = "SELECT * FROM tbl_pelanggan";
-$query = mysqli_query($koneksi, $sql);
+$hasil = $AES->encrypt('Ini adalah imal', 1323); // cara gunain fungsi nya
+
+print_r($hasil); // cetak hasil
+// $sql = "SELECT * FROM tbl_pelanggan";
+// $query = mysqli_query($koneksi, $sql);
 
 ?>
 

@@ -1,8 +1,4 @@
 <?php
-
-$AES = new AES();
-echo "<pre>";
-
 /** AES Cipher Library
  * Based on Federal Information Processing Standards Publication 197 - 26th November 2001
  * @author Marcin F. Wiœniowski <marcin.wisniowski@mfw.pl>
