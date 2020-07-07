@@ -5,9 +5,6 @@ require 'AES.php';
 
 $AES = new AES();
 
-$z= "abcdefghijuklmno0123456789012345";// key
-
-$aes = new Aes($z);
 $sql = "SELECT * FROM tbl_pelanggan";
 $query = mysqli_query($koneksi, $sql);
 
